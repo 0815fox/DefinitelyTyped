@@ -1,5 +1,5 @@
-// Type definitions for z85
-// Project: https://github.com/msealand/z85.node
+// Type definitions for node-session
+// Project: https://github.com/quorrajs/NodeSession
 // Definitions by: 0815fox <https://github.com/0815fox>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 import http = require('http');

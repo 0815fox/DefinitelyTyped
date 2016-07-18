@@ -6,6 +6,7 @@ import http = require('http');
 
 declare namespace NodeSession {
 	interface IConfig {
+		secret?:string,
 		driver?:'file'|'memory'|'database',
 		lifetime?:number, //ms
 		expireOnClose?:boolean,

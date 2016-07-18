@@ -47,3 +47,5 @@ declare class NodeSession {
 	startSession(request:http.IncomingMessage,response:http.ServerResponse,cb:()=>void):void;
 	constructor(Config?:NodeSession.IConfig,Encrypter?:NodeSession.IEncrypter);
 }
+
+export = NodeSession;

@@ -2,7 +2,7 @@
 // Project: https://github.com/msealand/z85.node
 // Definitions by: 0815fox <https://github.com/0815fox>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
-import {http} from 'http';
+import http = require('http');
 
 declare namespace NodeSession {
 	interface IConfig {

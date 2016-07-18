@@ -6,19 +6,19 @@ import {http} from 'http';
 
 declare namespace NodeSession {
 	interface IConfig {
-		driver:'file'|'memory'|'database',
-		lifetime:number, //ms
-		expireOnClose:boolean,
-		files:string,
-		connection:boolean,
-		table:string,
-		lottery:[number,number],
-		cookie:string,
-		path:string,
-		domain:string,
-		secure:boolean,
-		httpOnly:boolean,
-		encrypt:boolean
+		driver?:'file'|'memory'|'database',
+		lifetime?:number, //ms
+		expireOnClose?:boolean,
+		files?:string,
+		connection?:boolean,
+		table?:string,
+		lottery?:[number,number],
+		cookie?:string,
+		path?:string,
+		domain?:string,
+		secure?:boolean,
+		httpOnly?:boolean,
+		encrypt?:boolean
 	}
 	interface IEncrypter { /* TODO */ }
 	interface ISession {
